@@ -16,7 +16,7 @@ def winner_check(k, current_player_token, player_name):
        ((k[2]==k[5] and k[5]==k[8]) and (k[2]!=' ')) or ((k[3]==k[6] and k[6]==k[9]) and (k[3]!=' ')) or
        ((k[1]==k[5] and k[5]==k[9]) and (k[1]!=' ')) or ((k[3]==k[5] and k[5]==k[7]) and (k[5]!=' '))):
 
-        #std::cout<<player_name<<" played with "<<current_player_token<<" is the winner"<<std::endl;
+        print(f"{player_name} played with {current_player_token} is the winner")
         
         a = True
        
